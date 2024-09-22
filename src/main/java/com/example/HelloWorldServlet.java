@@ -7,12 +7,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/hello")
+@WebServlet("/myapp")
 public class HelloWorldServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html");
-        response.getWriter().println("<h1>Hello, World! I can feel it!</h1>");
+        response.getWriter().println("<h1>Hello, World! I can feel it!Why no webhooking?</h1>");
     }
 }
