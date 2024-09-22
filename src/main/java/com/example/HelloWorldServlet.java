@@ -13,6 +13,6 @@ public class HelloWorldServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html");
-        response.getWriter().println("<h1>Hello, World! I can feel it!Why no webhooking?</h1>");
+        response.getWriter().println("<h1>Hello, World! I can feel it!I am blind</h1>");
     }
 }
